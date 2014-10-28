@@ -51,9 +51,9 @@ I am using this code for my new publication, how should I cite it ?
 -------------------------------------------------------------------
 
 Please cite our CVPR2013 paper
->@inproceedings{martinovic2013,
->  author    = {An\dj{}elo Martinovi\'{c} and Luc {Van Gool}},
-> title     = {Bayesian Grammar Learning for Inverse Procedural Modeling},
->  booktitle = {CVPR},
->  year      = {2013},
->}
+   @inproceedings{martinovic2013,
+   author    = {An\dj{}elo Martinovi\'{c} and Luc {Van Gool}},
+   title     = {Bayesian Grammar Learning for Inverse Procedural Modeling},
+   booktitle = {CVPR},
+   year      = {2013},
+   }
