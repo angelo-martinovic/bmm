@@ -3,8 +3,7 @@ BMM : Bayesian Model Merging for Inverse Procedural Modeling
 
 Source code of the paper
 
-* Bayesian Grammar Learning for Inverse Procedural Modeling
-   `Anđelo Martinović <http://homes.esat.kuleuven.be/~amartino/>`_, Luc Van Gool; CVPR 2013
+**Bayesian Grammar Learning for Inverse Procedural Modeling**, Anđelo Martinović <http://homes.esat.kuleuven.be/~amartino/>, Luc Van Gool; CVPR 2013
 
 
 Abstract
@@ -21,7 +20,7 @@ THIS CODE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INC
 
 Setup
 ============
-Recommendation: use QT creator to import the project.
+Recommendation: use QT Creator to import the project.
 
 Requirements
 ---------------------
@@ -47,10 +46,7 @@ After compiling, run ./BMM_cpp --help for allowed program options. The configura
 FAQ
 ============
 
-I am using this code for my new publication, how should I cite it ?
--------------------------------------------------------------------
-
-Please cite our CVPR2013 paper
+If you are using this code for your new publication, please cite our CVPR2013 paper:
 
      @inproceedings{martinovic2013,
      author    = {An\dj{}elo Martinovi\'{c} and Luc {Van Gool}},
