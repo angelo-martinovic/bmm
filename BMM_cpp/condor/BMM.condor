@@ -1,0 +1,24 @@
+
+Executable = /users/visics/amartino/BMM/BMM_cpp-build-desktop-Qt_in_PATH_Release/BMM_cpp
+Universe = vanilla 
+Getenv = True 
+Notification = Error
+environment = CONDOR_ID=$(Cluster).$(Process)
+
+Log = /users/visics/amartino/BMM/BMM_cpp/condor/BMM.log.$(Process)
+Output = /users/visics/amartino/BMM/BMM_cpp/condor/BMM.out.$(Process)
+Error = /users/visics/amartino/BMM/BMM_cpp/condor/BMM.err.$(Process)
+
+RequestWalltime = 86400
+PeriodicRemove = JobStatus == 2 && ((CurrentTime - EnteredCurrentStatus) > $(RequestWalltime))
+
+Requirements = (Cpus>=8) && (machineowner == "Visics")
+RequestCpus = 8
+RequestMemory = 8192
+
+Arguments = --verbose=false --config=/users/visics/amartino/BMM/BMM_cpp-build-desktop-Qt_in_PATH_Release/config.cfg --fold=4
+Queue
+
+Arguments = --verbose=false --config=/users/visics/amartino/BMM/BMM_cpp-build-desktop-Qt_in_PATH_Release/config.cfg --fold=5
+Queue
+

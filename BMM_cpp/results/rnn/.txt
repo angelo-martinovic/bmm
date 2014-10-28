@@ -1,0 +1,664 @@
+
+Job finished at [05-Nov-2012 19:24:24]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 100, nChains: 1, T0: 100, tc: 1.3, sigma: 0.01
+
+Best confusion matrix: 
+ 34  38  24   0   1   0   0
+ 20  61   4   0   6   0   6
+ 14  74   5   0   1   0   4
+  0   0   0   0   0   0 100
+ 15   0   0   0  59  24   0
+  0   0   0   0   1  98   0
+  0   2   0  12   0   0  85
+
+Best accuracy: 
+0.573134
+Best rounds: 0
+ 
+Job finished at [05-Nov-2012 19:25:03]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 1000, nChains: 1, T0: 100, tc: 1.3, sigma: 0.01
+
+Best confusion matrix: 
+ 64  34   0   0   0   0   0
+  8  84   2   0   0   0   3
+ 12  24  60   0   2   0   0
+  0   0   0   0   0   0 100
+ 27   8   0   0  64   0   0
+  1   0   0   0   8  89   0
+  0   7   3  12   0   0  76
+
+Best accuracy: 
+0.765988
+Best rounds: 0
+ 
+Job finished at [05-Nov-2012 19:27:03]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 1000, nChains: 1, T0: 100, tc: 1.3, sigma: 0.01
+
+Best confusion matrix: 
+ 52  40   5   0   0   0   0
+  6  83   6   0   0   0   3
+ 27  18  52   0   1   0   0
+  0   0   0   0   0   0 100
+ 17   0   4   0  69   8   0
+  0   0   0   0   4  95   0
+  0   8   6   0   0   0  85
+
+Best accuracy: 
+0.755459
+Best rounds: 0
+ 
+Job finished at [05-Nov-2012 19:31:02]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 1000, nChains: 1, T0: 100, tc: 1.3, sigma: 0.01
+
+Best confusion matrix: 
+44 47  5  0  2  0  0
+ 5 89  1  0  0  0  2
+17 37 39  0  4  0  0
+ 0  0  2 52  0  0 44
+21  0  4  0 74  0  0
+ 1  0  0  0  8 90  0
+ 4 14  5  0  0  0 75
+
+Best accuracy: 
+0.757885
+Best rounds: 0
+ 
+Job finished at [05-Nov-2012 19:31:48]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 1000, nChains: 1, T0: 100, tc: 1.3, sigma: 0.01
+
+Best confusion matrix: 
+52 40  4  0  2  0  0
+ 6 79 11  1  0  0  1
+ 5 31 59  0  3  0  0
+ 4  6  5 83  0  0  0
+20 16  2  0 59  0  0
+ 4  0  0  0 12 82  0
+ 8 23  2  4  0  0 60
+
+Best accuracy: 
+0.7119
+Best rounds: 0
+ 
+Job finished at [05-Nov-2012 19:32:17]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 1000, nChains: 1, T0: 100, tc: 1.3, sigma: 0.01
+
+Best confusion matrix: 
+48 43  4  0  3  0  0
+ 3 88  4  0  0  0  1
+11 28 53  0  5  0  0
+ 0 20  0 79  0  0  0
+31  0  7  0 56  4  0
+ 1  0  0  0  4 94  0
+ 9 25  3  5  0  0 57
+
+Best accuracy: 
+0.753158
+Best rounds: 0
+ 
+Job finished at [05-Nov-2012 19:35:13]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 1000, nChains: 1, T0: 10, tc: 1.3, sigma: 0.1
+
+Best confusion matrix: 
+50 42  3  0  0  4  0
+10 86  1  0  0  0  0
+21 40 36  0  1  0  0
+22 32 11  0  0  0 33
+ 6  5  1  0 50 35  0
+ 0  0  0  0  0 99  0
+14 49  9  0  0  0 26
+
+Best accuracy: 
+0.67349
+Best rounds: 0
+ 
+Job finished at [05-Nov-2012 19:35:39]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 1000, nChains: 1, T0: 10, tc: 1.3, sigma: 0.01
+
+Best confusion matrix: 
+ 72  27   0   0   0   0   0
+  4  89   2   0   0   0   2
+ 20  25  53   0   0   0   0
+  0   0   0 100   0   0   0
+ 18  31   1   0  45   4   0
+  0   0   0   0   5  94   0
+  1   8   4   6   0   0  79
+
+Best accuracy: 
+0.8048
+Best rounds: 0
+ 
+Job finished at [05-Nov-2012 19:36:03]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 1000, nChains: 1, T0: 10, tc: 1.3, sigma: 0.01
+
+Best confusion matrix: 
+36 60  1  0  1  0  0
+ 2 91  3  0  0  0  1
+12 28 55  0  2  0  0
+12  0  4 82  0  0  0
+12 10  0  0 67  8  0
+ 0  0  0  0  4 95  0
+ 5 29  1  4  0  0 59
+
+Best accuracy: 
+0.766693
+Best rounds: 0
+ 
+Job finished at [05-Nov-2012 19:36:25]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 1000, nChains: 1, T0: 10, tc: 1.3, sigma: 0.01
+
+Best confusion matrix: 
+68 30  1  0  0  0  0
+ 4 88  3  0  1  0  1
+30 22 45  0  1  0  0
+ 6 13 10 69  0  0  0
+18  0  3  0 71  6  0
+ 0  0  0  0  5 94  0
+11 28  5  3  0  0 50
+
+Best accuracy: 
+0.762579
+Best rounds: 0
+ 
+Job finished at [05-Nov-2012 19:37:15]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 1000, nChains: 1, T0: 10, tc: 1.3, sigma: 0.01
+
+Best confusion matrix: 
+52 40  6  0  0  0  0
+ 6 88  3  0  0  0  0
+11 32 55  0  0  0  0
+27 13 15 40  0  0  2
+11 27  1  0 45 14  0
+ 0  0  0  0  2 97  0
+18 43  5  3  0  0 30
+
+Best accuracy: 
+0.715869
+Best rounds: 0
+ 
+Job finished at [05-Nov-2012 19:42:09]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 1000, nChains: 1, T0: 10, tc: 1.3, sigma: 0.01
+
+Best confusion matrix: 
+ 60  36   1   0   0   0   0
+  3  90   1   3   0   0   1
+  8  38  51   0   1   0   0
+  0   0   0  67   0   0  32
+  4  29   0   0  40  24   0
+  0   0   0   0   1  98   0
+  0   0   0   0   0   0 100
+
+Best accuracy: 
+0.817425
+Best rounds: 0
+ 
+Job finished at [05-Nov-2012 19:42:49]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 1000, nChains: 1, T0: 10, tc: 1.3, sigma: 0.01
+
+Best confusion matrix: 
+50 44  4  0  0  0  0
+ 4 92  0  0  0  0  1
+ 5 60 33  0  1  0  0
+ 5 14  5 75  0  0  0
+ 8 27  0  0 48 14  0
+ 0  0  0  0  2 97  0
+ 8 30  2  4  0  0 54
+
+Best accuracy: 
+0.743532
+Best rounds: 0
+ 
+Job finished at [05-Nov-2012 19:43:30]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 1000, nChains: 1, T0: 10, tc: 1.3, sigma: 0.01
+
+Best confusion matrix: 
+ 61  34   2   0   0   0   0
+  3  89   0   3   0   0   2
+  9  56  30   0   1   0   1
+  0   0   0 100   0   0   0
+  6  16   0   0  55  20   0
+  0   0   0   0   1  98   0
+  0   0   0   2   0   0  97
+
+Best accuracy: 
+0.7988
+Best rounds: 0
+ 
+Job finished at [05-Nov-2012 19:45:00]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 1000, nChains: 8, T0: 10, tc: 1.3, sigma: 0.01
+
+Best confusion matrix: 
+67 30  0  0  1  0  0
+ 6 88  3  1  0  0  0
+11 25 58  0  3  0  0
+ 6 32  1 58  0  0  0
+13  8  0  0 73  4  0
+ 0  0  0  0  5 94  0
+ 3 49  0  5  0  0 40
+
+Best accuracy: 
+0.760588
+Best rounds: 0
+ 
+Job finished at [05-Nov-2012 19:46:00]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 1000, nChains: 8, T0: 10, tc: 1.3, sigma: 0.01
+
+Best confusion matrix: 
+ 84  14   0   0   0   0   0
+  4  89   0   2   0   0   2
+ 18  27  51   0   2   0   0
+  0   0   0 100   0   0   0
+ 11   0   3   0  69  14   0
+  0   0   0   0   2  97   0
+  0   2   1   6   0   0  90
+
+Best accuracy: 
+0.846057
+Best rounds: 0
+ 
+Job finished at [05-Nov-2012 19:48:42]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 1000, nChains: 8, T0: 10, tc: 1.3, sigma: 0.01
+
+Best confusion matrix: 
+ 75  22   0   0   0   0   0
+  7  85   2   0   0   0   3
+ 13  16  67   0   1   0   0
+  0   0   0   0   0   0 100
+ 22   8   0   0  67   1   0
+  0   0   0   0   6  93   0
+  0  12   1  28   0   0  56
+
+Best accuracy: 
+0.772725
+Best rounds: 0
+ 
+Job finished at [05-Nov-2012 19:49:29]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 1000, nChains: 8, T0: 10, tc: 1.3, sigma: 0.1
+
+Best confusion matrix: 
+65 31  0  0  2  0  0
+ 6 89  2  0  0  0  1
+17 16 60  0  5  0  0
+ 0  6 35  0  0  0 57
+11  5  0  0 69 12  0
+ 0  0  0  0  2 96  0
+ 3 44  8  5  0  0 37
+
+Best accuracy: 
+0.752057
+Best rounds: 0
+ 
+Job finished at [05-Nov-2012 19:52:07]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 1000, nChains: 8, T0: 10, tc: 1.3, sigma: 0.01
+
+Best confusion matrix: 
+65 25  5  0  2  0  0
+ 9 77  8  0  0  0  3
+14 11 69  0  5  0  0
+ 0  0  0  4  0  0 94
+29  5  0  0 49 14  0
+ 0  0  0  0  1 97  0
+ 0  6  4  7  0  0 80
+
+Best accuracy: 
+0.748919
+Best rounds: 0
+ 
+Job finished at [05-Nov-2012 19:56:58]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 1000, nChains: 8, T0: 10, tc: 1.3, sigma: 0.1
+
+Best confusion matrix: 
+68 25  4  0  1  0  0
+ 7 86  2  0  0  0  2
+19 43 35  0  1  0  0
+ 0  0  0  0  0  0 98
+23 25  0  0 43  8  0
+ 0  0  0  0  3 95  0
+ 0 22  7 10  0  0 59
+
+Best accuracy: 
+0.72498
+Best rounds: 0
+ 
+Job finished at [05-Nov-2012 19:58:35]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 1000, nChains: 8, T0: 10, tc: 1.3, sigma: 0.01
+
+Best confusion matrix: 
+70 18  8  0  1  0  0
+ 8 78  8  0  0  0  3
+11 15 69  0  4  0  0
+ 0  0  0 15  0  0 83
+17  5  0  0 70  6  0
+ 0  0  0  0  4 94  0
+ 0  8  0 25  0  0 64
+
+Best accuracy: 
+0.749855
+Best rounds: 0
+ 
+Job finished at [05-Nov-2012 19:59:00]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 1000, nChains: 8, T0: 10, tc: 1.3, sigma: 0.01
+
+Best confusion matrix: 
+ 65  29   0   0   4   0   0
+  9  81   3   0   0   0   4
+  7  19  65   0   7   0   0
+  0   0   0   0   0   0 100
+ 15  10   0   0  72   1   0
+  0   0   0   0   6  93   0
+  0   3   0  11   0   0  84
+
+Best accuracy: 
+0.777485
+Best rounds: 0
+ 
+Job finished at [05-Nov-2012 20:08:38]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 1000, nChains: 8, T0: 10, tc: 1.3, sigma: 0.01
+
+Best confusion matrix: 
+73 15  7  0  3  0  0
+ 7 83  1  0  0  0  5
+ 8 19 62  0  6  0  3
+ 0  0  0 10  0  0 89
+22  8  0  0 68  0  0
+ 1  0  0  0  6 92  0
+ 0  5  0 30  0  0 63
+
+Best accuracy: 
+0.766746
+Best rounds: 0
+ 
+Job finished at [05-Nov-2012 20:09:06]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 1000, nChains: 8, T0: 10, tc: 1.3, sigma: 0.01
+
+Best confusion matrix: 
+ 50  23  18   0   2   4   0
+  7  71   9   0   2   0   8
+  8  24  48   0   9   0   9
+  0   0   0   0   0   0 100
+  8   0   0   0  55  35   0
+  0   0   0   0   0  99   0
+  0   0   0   0   0   0 100
+
+Best accuracy: 
+0.707826
+Best rounds: 0
+ 
+Job finished at [05-Nov-2012 20:10:29]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 1000, nChains: 8, T0: 10, tc: 1.3, sigma: 0.01
+
+Best confusion matrix: 
+ 22  58   9   0   3   0   5
+  8  78   3   0   0   0   8
+ 16  62   7   0   5   0   8
+  0   0   0   0   0   0 100
+ 21  10   0   0  63   4   0
+  0   0   0   0   5  94   0
+  0   0   0  36   0   0  63
+
+Best accuracy: 
+0.614623
+Best rounds: 0
+ 
+Job finished at [05-Nov-2012 20:12:02]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 1000, nChains: 8, T0: 10, tc: 1.3, sigma: 0.05
+
+Best confusion matrix: 
+78 15  3  0  1  0  0
+ 7 86  3  0  0  0  1
+21 37 37  0  3  0  0
+ 0 33  0  0  0  0 66
+11  1  0  0 63 22  0
+ 0  0  0  0  1 98  0
+ 0 51  0  6  0  0 41
+
+Best accuracy: 
+0.728422
+Best rounds: 0
+ 
+Job finished at [05-Nov-2012 20:13:03]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 1000, nChains: 8, T0: 10, tc: 1.3, sigma: 0.05
+
+Best confusion matrix: 
+72 24  0  0  0  3  0
+ 8 84  3  0  0  0  2
+31 16 50  0  1  0  0
+ 0  4 14  0  0  0 80
+ 8  1  0  0 56 33  0
+ 0  0  0  0  0 99  0
+ 0 21 15  0  0  0 63
+
+Best accuracy: 
+0.754655
+Best rounds: 0
+ 
+Job finished at [05-Nov-2012 20:13:43]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 1000, nChains: 8, T0: 10, tc: 1.3, sigma: 0.05
+
+Best confusion matrix: 
+ 77  15   5   0   1   0   0
+  6  84   1   0   0   0   6
+ 13  15  65   0   2   0   3
+  0   0   0   0   0   0 100
+ 33   8   0   0  49   8   0
+  1   0   0   0   3  95   0
+  0   4   0  11   0   0  84
+
+Best accuracy: 
+0.797409
+Best rounds: 0
+ 
+Job finished at [05-Nov-2012 20:31:21]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 1000, nChains: 8, T0: 10, tc: 1.3, sigma: 0.05
+
+Best confusion matrix: 
+ 77  17   1   0   1   1   0
+  5  82   6   0   0   0   4
+ 13   9  73   0   4   0   0
+  0   0   0   0   0   0 100
+  4   5   0   0  62  26   0
+  0   0   0   0   0  99   0
+  0   5   1   9   0   0  83
+
+Best accuracy: 
+0.803408
+Best rounds: 0
+ 
+Job finished at [05-Nov-2012 20:32:17]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 1000, nChains: 8, T0: 0, tc: 1.3, sigma: 0.05
+
+Best confusion matrix: 
+64 34  0  0  0  0  0
+ 7 87  2  0  0  0  1
+15 22 61  0  0  0  0
+ 2 10 35  0  0  0 51
+21 10  0  0 64  4  0
+ 0  0  0  0  5 94  0
+ 0 59  0  4  0  0 34
+
+Best accuracy: 
+0.736821
+Best rounds: 0
+ 
+Job finished at [05-Nov-2012 20:43:24]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 1000, nChains: 8, T0: 0, tc: 1.3, sigma: 0.05
+
+Best confusion matrix: 
+ 76  17   4   0   0   1   0
+  7  80   7   0   0   0   4
+ 15   8  74   0   1   0   0
+  0   0   0   0   0   0 100
+ 10   1   0   0  60  26   0
+  0   0   0   0   0  99   0
+  0   8   1  20   0   0  70
+
+Best accuracy: 
+0.774189
+Best rounds: 0
+ 
+Job finished at [05-Nov-2012 20:44:11]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 1000, nChains: 8, T0: 0, tc: 1.3, sigma: 0.05
+
+Best confusion matrix: 
+ 84  14   0   0   0   0   0
+  7  86   2   0   0   0   3
+ 19  12  67   0   1   0   0
+  0   0   0   0   0   0 100
+ 22   8   0   0  69   0   0
+  4   0   0   0  11  84   0
+  0  14   6  12   0   0  66
+
+Best accuracy: 
+0.789728
+Best rounds: 0
+ 
+Job finished at [05-Nov-2012 20:44:57]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 1000, nChains: 8, T0: 1000, tc: 1.3, sigma: 0.05
+
+Best confusion matrix: 
+70 19  6  0  3  0  0
+ 8 86  2  0  0  0  2
+15 22 56  0  6  0  0
+ 0  5 16  0  0  0 77
+ 5  8  0  0 61 24  0
+ 0  0  0  0  0 98  0
+ 0 30 11  9  0  0 47
+
+Best accuracy: 
+0.750013
+Best rounds: 0
+ 
+Job finished at [05-Nov-2012 20:45:24]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 1000, nChains: 8, T0: 0, tc: 1.3, sigma: 0.05
+
+Best confusion matrix: 
+ 79  19   0   0   0   0   0
+  8  84   2   0   0   0   3
+ 13  13  70   0   2   0   0
+  0   0   0   0   0   0 100
+ 23   8   0   0  68   0   0
+  0   0   0   0   7  92   0
+  0  11   1  17   0   0  70
+
+Best accuracy: 
+0.791482
+Best rounds: 0
+ 
+Job finished at [05-Nov-2012 20:46:22]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 1000, nChains: 8, T0: 0, tc: 1.3, sigma: 0.05
+
+Best confusion matrix: 
+62 27  3  0  6  0  0
+ 6 88  2  0  0  0  2
+12 23 53  0 10  0  0
+ 0  3 11  0  0  0 85
+ 8  5  0  0 84  1  0
+ 0  0  0  0  6 93  0
+ 0 26 13 18  0  0 40
+
+Best accuracy: 
+0.744047
+Best rounds: 0
+ 
+Job finished at [06-Nov-2012 10:14:48]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 1000, nChains: 8, T0: 0, tc: 1.3, sigma: 0.05
+
+Best confusion matrix: 
+ 72  23   1   0   2   0   0
+  6  86   2   0   0   0   3
+ 11  19  65   0   3   0   0
+  0   0   0   0   0   0 100
+ 18  12   0   0  68   0   0
+  1   0   0   0   9  89   0
+  0   7   3  10   0   0  78
+
+Best accuracy: 
+0.795332
+Best rounds: 0
+ 
+Job finished at [06-Nov-2012 10:15:50]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 1000, nChains: 8, T0: 0, tc: 1.3, sigma: 0.05
+
+Best confusion matrix: 
+77 21  0  0  0  0  0
+ 7 86  2  0  0  0  1
+20 17 58  0  2  0  0
+ 0  3 11  1  0  0 82
+20  5  0  0 67  6  0
+ 0  0  0  0  4 94  0
+ 0 21 13  5  0  0 59
+
+Best accuracy: 
+0.775013
+Best rounds: 0
+ 
+Job finished at [06-Nov-2012 15:28:52]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 100, nChains: 8, T0: 0, tc: 10, sigma: 0.01
+
+Best confusion matrix: 
+  9  70  10   0   6   0   3
+ 10  73   6   0   0   0   8
+ 29  49   0   0  10   0  10
+  0   0   0   0   0   0 100
+ 26   1   0   0  71   0   0
+  5   0   0   0  18  75   0
+  0   0   0  18   0   0  81
+
+Best accuracy: 
+0.574354
+Best rounds: 0
+ 
+Job finished at [06-Nov-2012 15:29:25]
+Fold 1. Tested on 1 images.
+Parameters: nRounds: 100, nChains: 8, T0: 0, tc: 10, sigma: 0.01
+
+Best confusion matrix: 
+ 70  16   6   0   6   0   0
+  8  80   1   0   2   0   6
+  4  16  64   0  10   0   3
+  0   0   0   0   0   0 100
+ 26   0   0   0  61  12   0
+  0   0   0   0   2  96   0
+  0   2   0  14   0   0  83
+
+Best accuracy: 
+0.772495
+Best rounds: 0
+ 

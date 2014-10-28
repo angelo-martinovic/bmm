@@ -1,0 +1,115 @@
+pSymbol S(new Symbol("S"));
+    pGrammar2D g(new Grammar2D(S));
+
+    pSymbol Shop(new Symbol("Shop"));
+    pSymbol GF(new Symbol("GF"));
+    pSymbol Floor(new Symbol("Floor"));
+    pSymbol Floor2(new Symbol("Floor2"));
+    pSymbol Roof(new Symbol("Roof"));
+    pSymbol Attic(new Symbol("Attic"));
+    pSymbol Sky(new Symbol("Sky"));
+    pSymbol Balcony(new Symbol("Balcony"));
+    pSymbol Window(new Symbol("Window"));
+    pSymbol WindowArea(new Symbol("WindowArea"));
+    pSymbol Wall(new Symbol("Wall"));
+    pSymbol Door(new Symbol("Door"));
+
+
+
+    for (unsigned int nFloors = 5; nFloors<=5; nFloors++)
+    {
+        // shop+n floors + roof + sky
+        double elemSize = 1.0 / (2+nFloors*2+2);
+        std::vector<pSymbol> rhs;
+        std::vector<double> sizes;
+        rhs.push_back(GF);sizes.push_back(2*elemSize);
+
+        for (unsigned int i=0;i<nFloors;i++)
+        {
+        if (i==1 || i==nFloors-1)
+        {
+            rhs.push_back(Balcony); sizes.push_back(elemSize);
+            //rhs.push_back(Floor2); sizes.push_back(elemSize);
+        }
+        //else
+        //{
+            rhs.push_back(Floor); sizes.push_back(elemSize);
+        //}
+        rhs.push_back(Wall); sizes.push_back(elemSize);
+        }
+
+        rhs.push_back(Attic);sizes.push_back(elemSize);
+        rhs.push_back(Sky);sizes.push_back(elemSize);
+
+        std::vector<pAttribute> attrs;
+        attrs.push_back(pAttribute(new Attribute(sizes)));
+
+        pProduction pFacade(new Production(S, rhs, attrs));
+        g->AddProductionV(pFacade);
+    }
+
+    for (unsigned int nWindows = 4; nWindows<=4;nWindows++)
+    {
+        double elemSize = 1.0 / (nWindows*2+1);
+        std::vector<pSymbol> rhs;
+        std::vector<pSymbol> rhs2,rhs3;
+        std::vector<double> sizes;
+
+        rhs.push_back(Wall);
+        rhs2.push_back(Roof);
+        rhs3.push_back(Wall);
+
+        sizes.push_back(elemSize);
+        for (unsigned int i=0;i<nWindows;i++)
+        {
+        rhs.push_back(Window); rhs2.push_back(Window); rhs3.push_back(WindowArea); sizes.push_back(elemSize);
+        rhs.push_back(Wall);   rhs2.push_back(Roof);   rhs3.push_back(Wall);    sizes.push_back(elemSize);
+        }
+        std::vector<pAttribute> attrs;
+        attrs.push_back(pAttribute(new Attribute(sizes)));
+
+        pProduction pFloor(new Production(Floor,rhs, attrs));
+        g->AddProductionH(pFloor);
+
+
+
+        pProduction pAttic(new Production(Attic,rhs2, attrs));
+        g->AddProductionH(pAttic);
+
+
+
+    }
+
+    pProduction p2(new Production(Shop,{symbolList[6]}));
+    pProduction p3(new Production(Wall,{symbolList[1]}));
+    pProduction p4(new Production(Window,{Balcony,WindowArea},{pAttribute(new Attribute({0.2,0.8}))}));
+    pProduction p4_1(new Production(WindowArea,{symbolList[0]}));
+
+
+    pProduction p5(new Production(Roof,{symbolList[4]}));
+    pProduction p6(new Production(Sky,{symbolList[5]}));
+    pProduction p7(new Production(Balcony,{symbolList[2]}));
+
+
+    pProduction p8(new Production(GF,{Shop,Door,Shop},{pAttribute(new Attribute({0.7,0.25,0.05}))}));
+    pProduction p9(new Production(Door,{symbolList[3]}));
+
+    //g->AddProductionV(p1);
+    g->AddProductionH(p2);
+    g->AddProductionH(p3);
+
+    g->AddProductionV(p4);
+    g->AddProductionH(p4_1);
+
+    g->AddProductionH(p5);
+    g->AddProductionH(p6);
+    g->AddProductionH(p7);
+    g->AddProductionH(p8);
+    g->AddProductionH(p9);
+
+    g->GenerateAlphabet();
+    g->NormalizeProbabilities();
+
+    g->ComputeEarleyRelations();
+
+    g->SaveXML("basicGrammar.xml");
