@@ -15,6 +15,10 @@ Within the fields of urban reconstruction and city modeling, shape grammars have
 *******
 Setup
 *******
+THIS CODE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE. Use at your own risk.
+
 Recommendation: use QT creator to import the project.
 
 *Requirements*: openCV version 2 (tested only with opencv 2.4). Create a symbolic link to the compiled openCV in the root folder and name it opencv2.4/
