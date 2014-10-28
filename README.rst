@@ -23,14 +23,12 @@ Setup
 *******
 Recommendation: use QT creator to import the project.
 
-*Requirements*: 
-
+**Requirements**: 
  - OpenCV version 2 (tested only with opencv 2.4). Create a symbolic link to the compiled openCV in the BMM_cpp/ folder and name it opencv2.4/
  - Boost libraries, specifically 'system', 'filesystem', 'program_options' and 'serialization'.
  - OpenMP
 
 **Datasets**: 
-
 In the BMM_cpp/ folder of the repository, create three subfolders (or symbolic links): images/, labels/ and groundTruth/.
 
  - *labels/* : contains .txt files of labeled examples for grammar learning. Each image is represented as a width*height matrix of integers from 1.. (number of semantic classes), each number representing the class of the pixel.
