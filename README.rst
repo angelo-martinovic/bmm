@@ -38,6 +38,7 @@ In the BMM_cpp/ folder of the repository, create three subfolders (or symbolic l
  * images/  contains .jpg images that will be parsed with the learned grammar.
  * groundTruth/  contains .txt files in the same format as labels/, containing ground-truth labeling for grammar-based parsing.
 
+The training-validation-evaluation split should be defined in testRig/fold{n}.txt.
 
 Running the program
 ----------------------------------------
