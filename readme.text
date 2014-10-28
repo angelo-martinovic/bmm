@@ -5,10 +5,8 @@ Source code of the paper
 
 **[Bayesian Grammar Learning for Inverse Procedural Modeling](http://homes.esat.kuleuven.be/~amartino/publications/martinovic-cvpr2013.pdf)**, [Anđelo Martinović](http://homes.esat.kuleuven.be/~amartino/), Luc Van Gool; CVPR 2013
 
-The code is owned by the [KU Leuven university](https://securewww.esat.kuleuven.be/psi/visics).
-
           Abstract
-          ============
+
           Within the fields of urban reconstruction and city modeling, shape grammars have emerged as a powerful tool 
           for both synthesizing novel designs and reconstructing buildings. Traditionally, a human expert was required
           to write grammars for specific building styles, which limited the scope of method applicability. We present an
@@ -20,6 +18,9 @@ The code is owned by the [KU Leuven university](https://securewww.esat.kuleuven.
           facade imagery. Experiments conducted on the dataset of Haussmannian buildings in Paris show that our parsing 
           with learned grammars not only outperforms bottom-up classifiers but is also on par with approaches that use
           a manually designed style grammar.
+
+
+The code is owned by the [KU Leuven university](https://securewww.esat.kuleuven.be/psi/visics).
 
 -----
 
