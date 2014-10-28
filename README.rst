@@ -23,7 +23,10 @@ Setup
 *******
 Recommendation: use QT creator to import the project.
 
-*Requirements*: openCV version 2 (tested only with opencv 2.4). Create a symbolic link to the compiled openCV in the BMM_cpp/ folder and name it opencv2.4/
+*Requirements*: 
+1. OpenCV version 2 (tested only with opencv 2.4). Create a symbolic link to the compiled openCV in the BMM_cpp/ folder and name it opencv2.4/
+2. Boost libraries, specifically 'system', 'filesystem', 'program_options' and 'serialization'.
+3. OpenMP
 
 In the BMM_cpp/ folder of the repository, create three subfolders (or symbolic links): images/, labels/ and groundTruth/.
 
