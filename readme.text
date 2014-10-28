@@ -47,7 +47,7 @@ FAQ
 If you are using this code for your new publication, please cite our CVPR2013 paper:
 
      @inproceedings{martinovic2013,
-     author    = {An\dj{}elo Martinovi\'{c} and Luc {Van Gool}},
+     author    = {An\dj{}elo Martinovi\''{c} and Luc {Van Gool}},
      title     = {Bayesian Grammar Learning for Inverse Procedural Modeling},
      booktitle = {CVPR},
      year      = {2013},
