@@ -28,6 +28,7 @@ Recommendation: use QT creator to import the project.
  - Boost libraries, specifically 'system', 'filesystem', 'program_options' and 'serialization'.
  - OpenMP
 
+*Datasets*: 
 In the BMM_cpp/ folder of the repository, create three subfolders (or symbolic links): images/, labels/ and groundTruth/.
 
 
