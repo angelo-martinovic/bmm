@@ -28,7 +28,8 @@ Requirements
  *Boost libraries, specifically 'system', 'filesystem', 'program_options' and 'serialization'.
  *OpenMP
 
-**Datasets**
+Datasets
+---------------------
 
 In the BMM_cpp/ folder of the repository, create three subfolders (or symbolic links): images/, labels/ and groundTruth/:
  - *labels/* : contains .txt files of labeled examples for grammar learning. Each image is represented as a width*height matrix of integers from 1.. (number of semantic classes), each number representing the class of the pixel.
@@ -37,6 +38,7 @@ In the BMM_cpp/ folder of the repository, create three subfolders (or symbolic l
 
 The training-validation-evaluation split should be defined in testRig/fold{n}.txt.
 
-**Running the program**
+Running the program
+-------------------------------
 
 After compiling, run ./BMM_cpp --help for allowed program options. The configuration must be defined in a config file, see examples in /config.cfg and /config2.cfg.
