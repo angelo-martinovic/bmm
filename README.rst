@@ -43,3 +43,18 @@ The training-validation-evaluation split should be defined in testRig/fold{n}.tx
 Running the program
 ----------------------------------------
 After compiling, run ./BMM_cpp --help for allowed program options. The configuration must be defined in a config file, see examples in /config.cfg and /config2.cfg.
+
+FAQ
+============
+
+I am using this code for my new publication, how should I cite it ?
+-------------------------------------------------------------------
+
+Please cite our CVPR2013 paper
+
+@inproceedings{martinovic2013,
+  author    = {An\dj{}elo Martinovi\'{c} and Luc {Van Gool}},
+  title     = {Bayesian Grammar Learning for Inverse Procedural Modeling},
+  booktitle = {CVPR},
+  year      = {2013},
+} 
