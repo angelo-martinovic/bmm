@@ -34,6 +34,9 @@ Datasets
 ---------------------
 In the BMM_cpp/ folder of the repository, create three subfolders (or symbolic links): images/, labels/ and groundTruth/.
 
+ * labels/  contains .txt files of labeled examples for grammar learning. Each image is represented as a width x height matrix of integers from 1.. (number of semantic classes), each number representing the class of the pixel.
+ * images/  contains .jpg images that will be parsed with the learned grammar.
+ * groundTruth/  contains .txt files in the same format as labels/, containing ground-truth labeling for grammar-based parsing.
 
 
 Running the program
