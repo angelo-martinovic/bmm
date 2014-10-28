@@ -1,6 +1,6 @@
-===================================================================
-HierSeg : Hierarchical co-segmentation of building facades
-===================================================================
+==============================================================
+BMM : Bayesian Model Merging for Inverse Procedural Modeling
+==============================================================
 
 Source code of the paper
 
