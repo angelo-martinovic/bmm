@@ -1,5 +1,5 @@
 BMM : Bayesian Model Merging for Inverse Procedural Modeling
-=========================================================
+=================================================================
 
 Source code of the paper
 
