@@ -39,7 +39,6 @@ In the BMM_cpp/ folder of the repository, create three subfolders (or symbolic l
  * groundTruth/ : contains .txt files in the same format as labels/, containing ground-truth labeling for grammar-based parsing.
 The training-validation-evaluation split should be defined in testRig/fold{n}.txt.
 
-         
 Running the program
--------------------------------
+----------------------------------------
 After compiling, run ./BMM_cpp --help for allowed program options. The configuration must be defined in a config file, see examples in /config.cfg and /config2.cfg.
